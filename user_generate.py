@@ -30,6 +30,6 @@ with open("pass-site.txt", "a+") as pass_site:
 		pass_site.write("Your information is below.\n\t password: {0}\n\t site: {1}\n\n".format(password, p_site))
 
 
-	# alues as per the function
+	# values as per the function. Change as needed.
 	pass_generator(16, "www.example.com")
 	pass_generator(22, "www.example2.com")
