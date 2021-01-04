@@ -14,7 +14,7 @@ with open("user-site.txt", "a+") as user_site:
 		user_site.write("Your information is below.\n\t username: {0}\n\t site: {1}\n\n".format(username, site))
 
 	# values as per the function. Change as needed.
-	user_generator(8, "www.exanple.com")
+	user_generator(8, "www.example.com")
 	user_generator(17, "www.example2.com")
 
 
